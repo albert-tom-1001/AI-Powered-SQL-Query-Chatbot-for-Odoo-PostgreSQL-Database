@@ -12,11 +12,11 @@ vn = VannaDefault(model=vanna_model_name, api_key=vanna_api_key)
 st.title("Welcome to your :blue[SQL Chatbot]")
 
 def conn_params():
-    server_host = "182.66.248.250"
-    server_port = "5432"
-    database_name = "odoo17"
-    DB_username = "odoo17"
-    password = "KENf9wcR28fh2"
+    server_host = "enter your serever host"
+    server_port = "enter port id here"
+    database_name = "enter databasename"
+    DB_username = "enter username "
+    password = "enter_your_password_here"
     return server_host, password, DB_username, database_name, server_port
 
 # Initialize session states if they don't exist
